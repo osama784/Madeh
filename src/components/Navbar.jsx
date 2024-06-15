@@ -11,7 +11,7 @@ const Navbar = (props) => {
     <div className={props.navShown ? navClassName + " right-0 duration-300" : navClassName + " -right-full duration-500"}>
       <FontAwesomeIcon icon={faArrowRight} className={props.navShown ? arrowClassName + "right-5" : arrowClassName + "-right-5"} onClick={props.flipShownNav}/>
       <div className="w-1/3 flex shadow-md rounded-full mx-auto">
-          <img src="/src/assets/images/mohammed.png" alt="" className="" draggable="false"/>
+          <img src="/mohammed.png" alt="" className="" draggable="false"/>
       </div>
       <div className=" bg-white flex flex-col gap-5">
         <ul className="space-y-5 *:transition-colors *:cursor-pointer">
