@@ -1,0 +1,17 @@
+{
+    "name": "Madeh",
+    "short_name": "MN",
+    "description": "madeh for prophet mohammed peace be upon him, may we gather with him in this life and that life",
+    "start_url": "/",
+    "theme_color": "#f1f5f9",
+    "background_color": "#f1f5f9",
+    "display": "standalone",
+    "icons": [
+        {   
+            "src": "/src/assets/images/mohammed.png",
+            "sizes": "any"
+
+        }
+
+    ]
+}
