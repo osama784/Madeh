@@ -6,14 +6,8 @@ import poems from './assets/poems.json'
 import { useState } from 'react'
 
 
-// const STORAGE_KEY = 'poems'
-// localStorage.setItem(STORAGE_KEY, JSON.stringify(poems))
-
 
 function App() {
-  // state for search for poems
-  // const data = localStorage.getItem(STORAGE_KEY)
-  // const poems = data ? JSON.parse(data) : []
   const [currentPoems, setCurrentPoems] = useState(poems)
   
   function handleChange(event) {
